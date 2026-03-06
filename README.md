@@ -11,18 +11,18 @@ This is a curated **Personal Toolbox** designed for high-performance developers.
 ### ☁️ Cloud Operations (Powered by RClone)
 
 * **Storage Sync:** Production-ready configurations for seamless cross-cloud data migration.
-* **Automated Backup:** Smart scripts to safeguard external projects (e.g., *AgriMarket*, *Go-Templates*) to encrypted remotes.
+* **Automated Backup:** Smart scripts to safeguard your project directories to encrypted remotes.
 * **Smart Mount:** One-click utilities to map Google Drive/OneDrive as local virtual drives with optimized caching.
 
 ### 📜 Technical Knowledge Base
 
 * **Cheat Sheets:** Quick-reference guides for RClone, Git, and Backend Architecture.
-* **Environment Setup:** Standardized instructions to replicate a Go/Nuxt/Flutter dev environment in minutes.
+* **Environment Setup:** Standardized instructions to replicate a professional dev environment in minutes.
 
 ### 🤖 System Automation
 
 * **Startup Flows:** Batch & PowerShell scripts to automate routine tasks upon Windows logon.
-* **Project Maintenance:** Cleaners for `node_modules`, `vendor`, and temporary build files.
+* **Project Maintenance:** Cleaners for `node_modules`, `vendor`, and temporary build files to keep your system lean.
 
 ---
 
@@ -66,12 +66,3 @@ rclone sync . <your-remote>:work-tools -P --exclude ".git/**"
 
 * **Zero Credentials:** This repository **DOES NOT** store `.env`, `rclone.conf`, or private keys.
 * **Security First:** Only logic and templates are public. All sensitive data remains in your private, encrypted storage.
-
----
-
-## ✍️ About the Author
-
-* **Name:** Phong
-* **Role:** Backend Developer / Freelancer
-* **Expertise:** Golang, Nuxt.js, Flutter
-* **Mission:** Automating the boring stuff to build better products.
