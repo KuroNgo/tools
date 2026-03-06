@@ -1,78 +1,77 @@
-# 🛠️ My Professional Ops & Toolset
+# 🛠️ Ultimate Developer Toolbox & Cloud Automation
 
-### "The best tools are the ones that disappear into your workflow."
+> **"The best tools are the ones that disappear into your workflow."**
 
-This repository is a dedicated **Personal Toolbox**. It does **not** contain project source code. Instead, it serves as a central hub for my DevOps scripts, automation flows, and technical documentation to ensure a seamless work environment across any machine.
+This is a curated **Personal Toolbox** designed for high-performance developers. It focuses on DevOps scripts, cloud automation, and technical documentation to ensure a seamless, synchronized work environment across any machine.
 
 ---
 
-## 🚀 What's Inside?
+## 🚀 Key Features
 
-### ☁️ Cloud Operations (RClone)
+### ☁️ Cloud Operations (Powered by RClone)
 
-* **Storage Sync:** Production-ready RClone configurations for cross-cloud data migration.
-* **Automated Backup Logic:** Scripts to safeguard external project directories (e.g., *AgriMarket*, *Go-Templates*) to encrypted cloud remotes.
-* **Mounting Utilities:** One-click scripts to map Google Drive/OneDrive as local virtual drives.
-
+* **Storage Sync:** Production-ready configurations for seamless cross-cloud data migration.
+* **Automated Backup:** Smart scripts to safeguard external projects (e.g., *AgriMarket*, *Go-Templates*) to encrypted remotes.
+* **Smart Mount:** One-click utilities to map Google Drive/OneDrive as local virtual drives with optimized caching.
 
 ### 📜 Technical Knowledge Base
 
 * **Cheat Sheets:** Quick-reference guides for RClone, Git, and Backend Architecture.
-* **Environment Setup:** Step-by-step instructions to replicate my development environment on Windows/Linux.
+* **Environment Setup:** Standardized instructions to replicate a Go/Nuxt/Flutter dev environment in minutes.
 
 ### 🤖 System Automation
 
-* **Startup Scripts:** Batch and PowerShell scripts to automate routine tasks upon Windows logon.
-* **Maintenance Tools:** Utility scripts for log cleaning, directory tree exports, and system health checks.
+* **Startup Flows:** Batch & PowerShell scripts to automate routine tasks upon Windows logon.
+* **Project Maintenance:** Cleaners for `node_modules`, `vendor`, and temporary build files.
 
 ---
-
 
 ## 📂 Repository Map
 
 ```text
 .
-
-├── rclone/             # Cloud sync configs & English/Vietnamese guides
-
+├── rclone/             # Cloud sync configs & Multi-language guides
 ├── automation/         # Windows .bat and .ps1 startup scripts
-
 ├── docs/               # Architecture notes & CLI cheat sheets
-
 ├── backups/            # Logic & lists for external project backups
-
-└── README.md          
+└── README.md           # The entry point
 
 ```
 
 ---
-
 
 ## 🛠️ Usage
 
-### Syncing this Toolbox
+### Quick Setup
 
-To update this toolset across your devices:
-
+1. **Clone the tools:**
 ```bash
-
-# Pull the latest tools
-git pull origin main
-
-# Sync tools to your private cloud
-rclone sync . gdrive:work-tools -P --exclude ".git/**"
+git clone https://github.com/your-username/your-repo-name.git
 
 ```
 
+
+2. **Sync to your own Cloud:**
+Replace `<your-remote>` with your RClone remote name:
+```bash
+rclone sync . <your-remote>:work-tools -P --exclude ".git/**"
+
+```
+
+
+
 ---
 
-## 🔒 Security Policy
+## 🔒 Security & Privacy
 
-* **Zero Credentials:** No `.env`, `rclone.conf`, or private keys are stored here.
-* **Pure Logic:** This repo contains only scripts and documentation. All actual data resides in secure, private cloud storage.
+* **Zero Credentials:** This repository **DOES NOT** store `.env`, `rclone.conf`, or private keys.
+* **Security First:** Only logic and templates are public. All sensitive data remains in your private, encrypted storage.
 
+---
 
+## ✍️ About the Author
 
-
-
-
+* **Name:** Phong
+* **Role:** Backend Developer / Freelancer
+* **Expertise:** Golang, Nuxt.js, Flutter
+* **Mission:** Automating the boring stuff to build better products.
